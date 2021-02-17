@@ -5,7 +5,14 @@
   "repository": "https://github.com/serjolas1/Gympoint.git",
   "author": "Sérgio <71034184+Cangaceiro15@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon ./src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.17.1"
   }
 }
