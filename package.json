@@ -1,0 +1,11 @@
+{
+  "name": "Gympoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/serjolas1/Gympoint.git",
+  "author": "Sérgio <71034184+Cangaceiro15@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
