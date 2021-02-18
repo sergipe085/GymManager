@@ -16,3 +16,5 @@ class Database {
     this.sequelize = new Sequelize(databaseConfig);
   }
 }
+
+export default new Database();
