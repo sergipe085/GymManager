@@ -27,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### Clone o repositório
 ```bash
-git clone https://github.com/carlos3g/GymManager.git
+git clone https://github.com/serjolas1/GymManager.git
 ```
 
 #### Instale as dependências
