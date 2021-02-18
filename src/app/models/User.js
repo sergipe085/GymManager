@@ -14,7 +14,7 @@ class User extends Model {
       altura: Sequelize.STRING
     }, {
       sequelize,
-    })
+    });
 
     this.addHook('beforeSave', async (user) => {
       if (user.password) {
