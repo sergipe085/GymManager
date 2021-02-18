@@ -14,6 +14,10 @@
 
 ---
 
+### 📕 Descrição
+
+Um projeto feito para academias fazerem o controle de seus estudantes.
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
