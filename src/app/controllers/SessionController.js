@@ -1,22 +1,38 @@
 import jwt from 'jsonwebtoken';
-import User from './../models/User';
+import Student from './../models/Student';
 
 import authConfig from './../../config/auth';
 
 class SessionController {
   async store(req, res) {
-    const { email, password } = req.body;
 
-    const user = await User.findOne({ where: { email }});
+  const { email, password } = req.body;
+
+  return;
+
+  if (email !== 'admin@gympoint.com') {
+    const user = await Student.findOne({ where: { email } });
+
     if (!user) {
-      return res.status(400).json({ error: "User not founded" });
+      return res.status(400).json({ error: 'User not founded' });
     }
 
-    if (!(await user.checkPassword(password))) {
+    const { name } = user;
+
+    return res.json({
+      name,
+      email
+    })
+  }
+    const admin = await Student.findOne({ where: { email } });
+
+    console.log(admin);
+
+    if (password && !(await admin.checkPassword(password))) {
       return res.status(401).json({ error: "Senha incorreta" });
     }
 
-    const { id, name } = user;
+    const { id, name } = admin;
 
     return res.json({
       user: {
