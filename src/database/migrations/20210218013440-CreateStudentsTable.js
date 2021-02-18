@@ -23,17 +23,17 @@ module.exports = {
         idade: 
         {
           type: Sequelize.INTEGER,
-          allowNull: true,
+          allowNull: false,
         },
         peso: 
         {
           type: Sequelize.STRING,
-          allowNull: true
+          allowNull: false
         },
         altura: 
         {
           type: Sequelize.STRING,
-          allowNull: true
+          allowNull: false
         },
         created_at:
         {

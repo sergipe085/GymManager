@@ -2,15 +2,17 @@ import Student from './../models/Student';
 
 class StudentController {
   async store(req, res) {
-    const { name, email, idade } = req.body;
+    const { name, email, idade, peso, altura } = req.body;
 
-    const user = await Student.create({
+    const student = await Student.create({
       name, 
       email,
-      idade
-    })
+      idade,
+      peso,
+      altura
+    });
 
-    return res.json(user);
+    return res.json(student);
   }
 }
 
