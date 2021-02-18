@@ -1,8 +1,6 @@
-# GymManager
-
 <div align="center">
   <h1>
-    <REPO_NAME>
+    GymManager
   </h1>
   <blockquote>
     <REPO_DESCRIPTION>
@@ -20,39 +18,38 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
+- [Nodejs](https://nodejs.org/en/)
+- [Expressjs](https://expressjs.com/pt-br/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Sequelize](https://sequelize.org/)
 
 ## :computer: Executando o projeto
 
 #### Clone o repositório
 ```bash
-git clone https://github.com/carlos3g/<REPO_NAME>.git
+git clone https://github.com/carlos3g/GymManager.git
 ```
 
 #### Instale as dependências
 ```bash
-cd <REPO_NAME>
+cd GymManager
 yarn install
 ```
 
 #### Rode a aplicação
 ```bash
-yarn start
+yarn dev:server
 ```
 
 ## 🤝 Contribuindo 
 
 Todo tipo de contribuição é bem-vinda, nós admiramos isso!
 
-Tem algum problema? Encontrou um bug? Tem alguma dica? Abra uma [issue](https://github.com/carlos3g/<REPO_NAME>/issues) descrevendo.
+Tem algum problema? Encontrou um bug? Tem alguma dica? Abra uma [issue](https://github.com/carlos3g/GymManager/issues) descrevendo.
 
 Quer contribuir com código? Pedimos que antes leia [este guia de contribuição](https://github.com/firstcontributions/first-contributions)
 
 Não esqueça de deixar a sua ⭐, também é um modo de contribuir com o projeto ;)
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
-Criado por [Carlos Mesquita](https://github.com/carlos3g) :purple_heart:
+Criado por [Serjolas1](https://github.com/serjolas1) :purple_heart:
